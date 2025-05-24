@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujjwal Hirwani</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/775629a9b4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Achievements</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Future Software Engineer!</p>
+                <h1>Hi, I'm <span> Ujjwal Hirwani </span><br>Second Year Student, <br> VIT Vellore</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="user.jpg" alt="my photo"></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m <strong>Ujjwal Hirwani</strong> a second-year <strong>B.Tech Computer Science and Engineering
+                            with Business Systems student</strong> at <strong>Vellore Institute of Technology,
+                            Vellore</strong>
+                        with a <strong>CGPA of 9.82</strong>. Skilled in C, C++, Python, Web Development, Data
+                        Structures and Algorithms, OOPS,
+                        Operating Systems, and DBMS.
+                        <br>
+                        Program Representative for CSBS and Events Head of the Instrument Society of India. Achieved
+                        <strong>rank 1 in the CSBS branch</strong> with a <strong>Certificate of Merit</strong> .
+                        <br>
+                        Experienced in version control using Git/GitHub and interested in building practical software
+                        solutions.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br> C, C++, Python.</li>
+                            <li><span>Data Structures and Algorithms</span><br>Experienced with arrays, linked lists,
+                                stacks, queues, sorting, and searching techniques.</li>
+                            <li><span>HTML, CSS</span><br>Skilled in structuring web pages with HTML5 and styling them
+                                using CSS3 for responsive and modern designs.</li>
+                            <li><span>Git and GitHub</span><br>Skilled in version control, branching, merging, and
+                                repository management using GitHub.</li>
+                            <li><span>Object Oriented Programming (OOPS)</span><br>Adept in OOP principles like
+                                inheritance, polymorphism, abstraction, and design patterns.</li>
+                            <li><span>Operating Systems (OS)</span><br>Knowledgeable in process scheduling, memory
+                                management, file systems, and concurrency control.</li>
+                            <li><span>Database Management Systems (DBMS)</span><br>Proficient in SQL querying, database
+                                design, transactions.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Present</span><br>Program Representative – CSBS.</li>
+                            <li><span>2024 - Present</span><br>Events Head – The Instrument Society of India (ISOI).
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Present</span><br> B.Tech. Computer Science and Engineering with
+                                specialization
+                                in Business Systems (CSBS) | second-year | CGPA: 9.82</li>
+                            <li><span>2023</span><br>XII (CBSE) | Delhi Public School, Bhilai Chhattisgarh | 92.4%</li>
+                            <li><span>2021</span><br>X (CBSE) | Delhi Public School, Bhilai Chhattisgarh | 93.6%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Achievements</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-2.jpg">
+                    <div class="layer">
+                        <h3><strong>Certificate of Merit - 2025</strong></h3>
+                        <p>I received a merit scholarship for achieving the top position in my branch during the
+                            academic year 2024-25.</p>
+                        <a href="https://drive.google.com/file/d/1YuJ2a76sgEGeVgPiWSl1mh0vtStBVxOa/view?usp=sharing"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="PR Certificate.png">
+                    <div class="layer">
+                        <h3><strong>Programme Representative</strong></h3>
+                        <p>Certificate of Appreciation for serving as the programme representative of CSBS for the year 2024 - 25
+                        </p>
+                        <a href="https://drive.google.com/file/d/1PFaqkzcEWZk62yzPVnG9SalbyfJL1xYs/view?usp=sharing"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-1.JPG">
+                    <div class="layer">
+                        <h3><strong>Certificate of Merit - 2024</strong></h3>
+                        <p>I received a merit scholarship for achieving the top position in my branch during the
+                            academic year 2023-24.</p>
+                        <a href="https://drive.google.com/file/d/13lNX335Nu7NAIpel5A5hTZ2wdCIDhm1p/view?usp=sharing"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="SAIL Certificate.png">
+                    <div class="layer">
+                        <h3><strong>Prime Minister Trophy and Certificate of Scholarship</strong></h3>
+                        <p>Conferred by the Steel
+                            Authority of India Limited for exceptional academic
+                            performance.</p>
+                        <a href="https://drive.google.com/file/d/1chlz8UOMo7JDAKX0938HTkFf7mPj-rr7/view?usp=sharing"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- projects -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website for The Instrument Society of India (ISOI)</h2>
+                    <p>Developed a user-friendly website for the Instrument Society of India as part of a two-member team. The website provides event updates, resources, and announcements for students. Built using HTML, CSS, and JavaScript, it features an intuitive interface, responsive design, and interactive elements for seamless navigation. The platform ensures accessibility across devices, enhancing engagement within the community.</p>
+                    <a href="https://isoivit.github.io/Website/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Hobbies</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-music"></i>
+                    <h2>Sitar Playing</h2>
+                    <p>I am a professional sitarist with a deep love for music. This passion adds balance to my life and
+                        inspires my creativity. Completed 6 years diploma in Sitar Playing from Indira Kala Sangeet
+                        Vishva Vidyalaya Khairagarh, Chhattisgarh.</p>
+                    <a href="https://youtube.com/@ashokkumarhirwani5666?si=dQZw3CCW8jigiy3V" target="_blank">Learn
+                        more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-burger"></i>
+                    <h2>Passion for Cooking</h2>
+                    <p>I love food and enjoy trying new cuisines. Cooking is not just a hobby for me; it’s a way to
+                        relax and have fun.</p>
+                </div>
+            </div>
+            <a href="#" class="btn">Back to Home</a>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:hirwani05ujjwal@gmail.com"
+                            id="mail">hirwani05ujjwal@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i><a href="tel: +917587263830" id="mail">(+91) 7587263830</a></p>
+                    <div class="social-icons">
+                        <a href="http://www.linkedin.com/in/-ujjwal-hirwani-" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ujjwal-hirwani" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/ujjwalhirwani?igsh=cTd4cDUzaXcybXE=" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="Ujjwal Hirwani resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made with <i class="fa-solid fa-heart" id="heart"></i> by Ujjwal Hirwani</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxk0dsvZzhSK14N7fpzdCmYCDOIpB0V94BekoARXTG0zPkE_nb20Rv-ZluNwkOAY2-7GQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
