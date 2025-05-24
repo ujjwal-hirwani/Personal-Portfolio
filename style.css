@@ -270,6 +270,18 @@ nav ul li a:hover::after {
 .btn:hover{
     background: #ff004f;
 }
+/* this is to fix achievements in 2x2 grid */
+/* this is something new */
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns */
+    grid-gap: 40px;
+    margin: 50px auto 0 auto;
+    /* Center horizontally */
+    max-width: 800px;
+    /* Control total grid width */
+}
 /* contact */
 
 .contact-left{
@@ -400,6 +412,12 @@ nav .fa-solid{
     }
     .layer{
         overflow: auto;
+    }
+    /* this is to fix achievements in 2x2 grid */
+    /* this is something new */
+    .work-list {
+        grid-template-columns: 1fr; 
+        /* Stack in one column */
     }
 }
 #msg{
